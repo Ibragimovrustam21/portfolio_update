@@ -33,7 +33,7 @@ export const About = () => (
         </MySkillsWrapper>
       </MyInformationWrapper>
       <MyPhoto>
-        <img src={my_photo} alt='my-photo' />
+        <img src={my_photo} alt='mening_rasmim' />
       </MyPhoto>
     </AboutMeContainer>
   </Wrapper>

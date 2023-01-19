@@ -1,6 +1,5 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { animateUp } from '../../utils/animation-settings'
 import { HomePage, MyButton, Name, Text, Title } from './main.style';
 
 export const Main = () => {

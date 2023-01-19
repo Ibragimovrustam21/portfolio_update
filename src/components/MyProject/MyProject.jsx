@@ -1,5 +1,4 @@
 import React from 'react';
-import { animateUp } from '../../utils/animation-settings';
 import {
   MyProjectLink,
   ProjectItem,
@@ -26,7 +25,7 @@ export const MyProject = (props) => {
   } = props
 
   return (
-    <MyProjectLink target='_blank' rel="noreferrer" href={url}>
+    <MyProjectLink href={url} target='_blank' rel="noreferrer" >
       <ProjectItem>
         <IconWrapper>
           <IconFolder>

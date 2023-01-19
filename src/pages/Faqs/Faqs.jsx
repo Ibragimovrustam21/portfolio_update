@@ -1,5 +1,4 @@
 import React from 'react'
-import { animateUp } from '../../utils/animation-settings'
 import { Divider } from 'antd'
 import { FaqsContainer, Question, QuestionsWrapper, Respond } from './faqs.style'
 import { Wrapper, DividerBox } from '../../styles/global.style'

@@ -42,7 +42,7 @@ const menu = [{
 
 export const Navigation = () => {
   const location = useLocation()
-  const [stickyActive, setStickyActive] = useState(window.scrollY > 0)
+  const stickyActive = window.scrollY > 0
 
   const [humbergerActive, setHumbergerActive] = useState(false)
   const [blurBackShowActive, setBlurBackShowActive] = useState(false)
@@ -75,9 +75,9 @@ export const Navigation = () => {
                     <LinkBlock key={item.id}>
                       <LinkWrapper>
                         <NavLink
+                          isActive={location.pathname === item.pathname}
                           to={item.pathname}
                           onClick={navActive}
-                          isActive={location.pathname === item.pathname}
                         >
                           <span>0{item.id}.</span>
                           {item.menuName}
