@@ -1,0 +1,77 @@
+body {
+  max-width: 1440px;
+  height: 100% !important;
+  margin: 0 auto;
+  background-color: #0a192f;
+  font-family: 'Space Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+  /* ширина scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #45494e;
+  /* цвет дорожки */
+
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #64ffdbc9;
+  /* цвет плашки */
+  border-radius: 20px;
+  /* закругления плашки */
+  /* border: 3px solid orange; */
+  /* padding вокруг плашки */
+
+}
+
+.divider-title {
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+
+.divider-title h3 {
+  font-size: 26px;
+  width: auto;
+  margin: 0;
+  color: #ccd6f6;
+}
+
+.divider-title h3 span {
+  color: #64ffda;
+}
+
+
+@media (min-width:0) and (max-width:446.9px) {
+  .divider-title h3 {
+    font-size: 23px;
+  }
+}
+
+@media (min-width:447px) and (max-width:768.9px) {
+  .divider-title h3 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width:769px) and (max-width:989.9px) {
+  .divider-title h3 {
+    font-size: 25px;
+  }
+}
