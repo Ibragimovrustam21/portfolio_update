@@ -55,6 +55,7 @@ export const MyButton = styled.button`
   font-size: 16px;
   text-align: center;
   letter-spacing: 1px;
+  margin-top:15px;
   cursor: pointer;
   
   &:hover {

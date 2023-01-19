@@ -6,8 +6,9 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  padding-top: 150px;
+  padding-top:100px;
 `
+
 export const DividerBox = styled.div`
   width: 350px;
   min-width: 100px;
