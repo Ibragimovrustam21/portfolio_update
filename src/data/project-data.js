@@ -9,15 +9,6 @@ export const projectData = [
     urlGithub: 'https://github.com/Ibragimovrustam21/cown-clothing/tree/master',
   },
   {
-    title: 'Quiz App | React',
-    text: 'В этом приложение вы можете закрепить своё знание отвечавь вопросы.',
-    img: 'projectImg/quizApp.png',
-    adaptive: 'Приложение адаптивным состояние.',
-    technologies: ['HTML5', 'CSS3/SASS', 'Bootstrap', 'Axios', 'React js'],
-    url: 'https://quizapp21.netlify.app/',
-    urlGithub: 'https://github.com/Ibragimovrustam21/QuizApp',
-  },
-  {
     title: 'Olmo.uz | React',
     text: 'Приложение сделано для усвоение навыков.',
     img: 'projectImg/olmo.png',
@@ -34,15 +25,6 @@ export const projectData = [
     technologies: ['HTML5', 'CSS3/SASS', 'Antd-design', 'React js', 'Typescript'],
     url: 'https://tour-ws.netlify.app/',
     urlGithub: 'https://github.com/Ibragimovrustam21/tourApp',
-  },
-  {
-    title: 'Online Shopping | React',
-    text: 'Через приложение вы можете купить качественные товары не выходя из дома.',
-    img: 'projectImg/shopping.png',
-    adaptive: 'Приложение адаптивным состояние.',
-    technologies: ['HTML5', 'CSS3/SASS', 'React js', 'React-redux', 'Redux Toolkit'],
-    url: 'https://e-commerce-21.netlify.app/',
-    urlGithub: 'https://github.com/Ibragimovrustam21/e-commerce/tree/master ',
   },
   {
     title: 'Get Weather | React',

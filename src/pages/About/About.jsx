@@ -25,10 +25,11 @@ export const About = () => (
           <MySkills>CSS3 / SASS</MySkills>
           <MySkills>Bootstrap</MySkills>
           <MySkills>Ant Design</MySkills>
+          <MySkills>Tailwind CSS</MySkills>
           <MySkills>Javascript (ES6)</MySkills>
           <MySkills>React js (Redux,Xook)</MySkills>
-          <MySkills>Next js (Basic)</MySkills>
-          <MySkills>Typescript (Basic)</MySkills>
+          <MySkills>Next js</MySkills>
+          <MySkills>Typescript</MySkills>
           <MySkills>Git</MySkills>
         </MySkillsWrapper>
       </MyInformationWrapper>

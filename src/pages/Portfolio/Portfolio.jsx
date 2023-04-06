@@ -1,6 +1,6 @@
 import React from 'react';
 import { Divider } from 'antd';
-import { MyProject } from '../../components/MyProject/MyProject';
+import { MyProject } from '../../components/MyProject';
 import { projectData } from '../../data/project-data'
 import { DividerBox, Wrapper } from '../../styles/global.style'
 import { MyProjectsContainer } from './portfolio.style';

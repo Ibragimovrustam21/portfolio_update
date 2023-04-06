@@ -36,25 +36,32 @@ export const Navbar = styled.div`
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  padding: 0 30px;
+  padding: 0 60px;
   transition: all 0.5s linear;
   ${(stickActive) => stickActive && Sticky}
-
+  @media  (max-width: 990px){
+    padding: 0 20px;
+  }
 `
 
 export const NavbarLogoBrand = styled.div`
-  width: auto;
-  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `
 
 export const NavbarLogo = styled(Link)`
   height: 100%;
+  color: #ccd6f6;
+  font-size: 20px;
+  vertical-align: middle;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   cursor: pointer;
-
-  img {
-    width: auto;
-    height: 90%;
-  } 
+  
+  &:hover {
+    color: #64ffda;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
 `
 
 export const NavbarMenuGroup = styled.div`

@@ -33,11 +33,6 @@ const menu = [{
   id: 3,
   pathname: '/portfolio',
   menuName: 'Портфолио',
-},
-{
-  id: 4,
-  pathname: '/faqs',
-  menuName: 'Вопросы',
 }]
 
 export const Navigation = () => {
@@ -64,7 +59,8 @@ export const Navigation = () => {
         <Navbar stickActive={stickyActive}>
           <NavbarLogoBrand>
             <NavbarLogo to='/'>
-              <img alt='logo' src={logo} />
+              {/* <img alt='logo' src={logo} /> */}
+              Ibragimov Rustam
             </NavbarLogo>
           </NavbarLogoBrand>
           <NavbarMenuGroup navbarMenuActive={navbarMenuActive}>
