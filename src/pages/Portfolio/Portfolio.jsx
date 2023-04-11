@@ -16,18 +16,16 @@ export const Portfolio = () => {
       <MyProjectsContainer>
         {
           projectData.map((item, key) => {
-            const { title, text, adaptive, technologies, url, urlGithub, animeTime, img } = item
+            const { title, text, technologies, url, urlGithub, img } = item
             return (
               <MyProject
                 key={key}
                 title={title}
                 text={text}
-                adaptive={adaptive}
+                img={img}
                 technologies={technologies}
                 url={url}
                 urlGithub={urlGithub}
-                animeTime={animeTime}
-                img={img}
               />
             )
           })

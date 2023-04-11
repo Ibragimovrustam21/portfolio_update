@@ -12,7 +12,8 @@ export const MyProjectLink = styled.a`
   }
 `
 export const HoverLink = styled.h4`
-  height: 60px;
+  height: auto;
+  max-height: 60px;
   font-size: 20px;
   color: #a8b2d1;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -22,7 +23,7 @@ export const HoverLink = styled.h4`
   }
 `
 export const ProjectItem = styled.div`
-  height: 570px;
+  max-height: 570px;
   background-color: #112240;
   display: flex;
   flex-direction: column;
@@ -44,7 +45,7 @@ export const ProjectItem = styled.div`
   }
 `
 export const IconWrapper = styled.div`
-  height: 10%;
+  /* height: 10%; */
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -73,7 +74,7 @@ export const IconSource = styled.div`
   }
 `
 export const ProjectItemName = styled.div`
-  height: 75%;
+  /* height: 65%; */
   width: 100%;
   margin: 10px 0;
 `
@@ -81,7 +82,8 @@ export const Text = styled.p`
   color: #8792af;
   font-size: 18px;
   margin-top: 15px;
-  height: 120px;
+  height: auto;
+  max-height: 120px;
 
   span {
     color: #64ffda;
@@ -102,6 +104,7 @@ export const ProjectItemTechnologies = styled.div`
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: 20px;
 `
 export const TechnologiesText = styled.p`
   margin-right: 15px;
