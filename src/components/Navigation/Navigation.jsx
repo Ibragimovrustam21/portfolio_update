@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { useLocation } from 'react-router-dom'
-import logo from '../../assets/LogoMakr-2dsx6X.png'
 import resume from '../../resume/my_resume.pdf'
 import {
   Bar,
@@ -59,7 +58,6 @@ export const Navigation = () => {
         <Navbar stickActive={stickyActive}>
           <NavbarLogoBrand>
             <NavbarLogo to='/'>
-              {/* <img alt='logo' src={logo} /> */}
               Ibragimov Rustam
             </NavbarLogo>
           </NavbarLogoBrand>
