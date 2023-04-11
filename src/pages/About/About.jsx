@@ -1,6 +1,6 @@
 import React from 'react';
 import { Divider } from 'antd';
-import my_photo from '../../assets/i am.jpg'
+import my_photo from '../../assets/myPhoto.jpg'
 import { DividerBox, Wrapper } from '../../styles/global.style'
 import { AboutMeContainer, MyInformation, MyInformationWrapper, MyPhoto, MySkills, MySkillsTitle, MySkillsWrapper } from './about.style';
 
