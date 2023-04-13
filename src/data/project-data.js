@@ -12,8 +12,8 @@ export const projectData = [
     text: 'Через приложение вы можете купить качественные товары не выходя из дома.',
     img: 'projectImg/crown.png',
     technologies: ['Styled-Components', 'React js', 'Redux', 'Redux-thunk'],
-    url: 'https://crown-clothing-wb.netlify.app/',
-    urlGithub: 'https://github.com/Ibragimovrustam21/cown-clothing/tree/master',
+    url: 'https://crown-wb.netlify.app',
+    urlGithub: 'https://github.com/Ibragimovrustam21/crown-wb',
   },
   {
     title: 'Olmo.uz | React',
